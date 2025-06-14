@@ -28,6 +28,8 @@ const port = process.env.PORT || 5000;
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
 
-app.listen(port, () => {
-  console.log("server is running on : http://localhost:5000");
-});
+// app.listen(port, () => {
+//   console.log("server is running on : http://localhost:5000");
+// });
+
+module.exports = app ;
